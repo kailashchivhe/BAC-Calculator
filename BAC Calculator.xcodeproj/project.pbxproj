@@ -13,6 +13,8 @@
 		CBADF08629A567C700245A91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBADF08429A567C700245A91 /* Main.storyboard */; };
 		CBADF08829A567C900245A91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBADF08729A567C900245A91 /* Assets.xcassets */; };
 		CBADF08B29A567C900245A91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBADF08929A567C900245A91 /* LaunchScreen.storyboard */; };
+		CBADF09329A56E2800245A91 /* DrinkDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBADF09229A56E2800245A91 /* DrinkDetailsViewController.swift */; };
+		CBADF09529A5719900245A91 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBADF09429A5719900245A91 /* Drink.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CBADF08729A567C900245A91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBADF08A29A567C900245A91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBADF08C29A567C900245A91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBADF09229A56E2800245A91 /* DrinkDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetailsViewController.swift; sourceTree = "<group>"; };
+		CBADF09429A5719900245A91 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				CBADF08729A567C900245A91 /* Assets.xcassets */,
 				CBADF08929A567C900245A91 /* LaunchScreen.storyboard */,
 				CBADF08C29A567C900245A91 /* Info.plist */,
+				CBADF09229A56E2800245A91 /* DrinkDetailsViewController.swift */,
+				CBADF09429A5719900245A91 /* Drink.swift */,
 			);
 			path = "BAC Calculator";
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBADF09329A56E2800245A91 /* DrinkDetailsViewController.swift in Sources */,
 				CBADF08329A567C700245A91 /* ViewController.swift in Sources */,
 				CBADF07F29A567C700245A91 /* AppDelegate.swift in Sources */,
+				CBADF09529A5719900245A91 /* Drink.swift in Sources */,
 				CBADF08129A567C700245A91 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
